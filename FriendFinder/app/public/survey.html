@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="jumbotron" style="height: 45vh" class="row valign-wrapper yellow lighten-5 z-depth-2">
+            <div class="row center-block">
+                <br>
+                <h1 class="center-align">
+                    <span>FRIEND FINDER</span>
+                </h1>
+                <hr>
+                <h4 class="center-align">SURVEY QUESTIONS</h4>
+            </div>
+        </div>
+
+        <div class="survey">
+            <div class="row">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="userName" id="icon_prefix" placeholder="Name" type="text" class="surveyElem validate" required>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">image</i>
+                        <input id="imageURL" id="icon_prefix" placeholder="Link to Image" type="text" class="surveyElem validate" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h5>Answer the questions and find the friend with the best match in personality!</h5>
+                <br>
+                <hr>
+                <ol>
+                    <li class="col s10">You find it difficult to introduce yourself to other people.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q1">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        You often get so lost in thoughts that you ignore or forget your surroundings.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q2">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        You do not usually initiate conversations.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q3">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">You rarely do something just out of sheer curiosity.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q4">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        Winning a debate matters less to you than making sure no one gets upset.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q5">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">You often feel as if you have to justify yourself to other people.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q6">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        Being organized is more important to you than being adaptable.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q7">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        You do not mind being at the center of attention.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q8">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        You consider yourself more practical than creative.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q9">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="col s10">
+                        It is often difficult for you to relate to other people’s feelings.
+                        <div class="input-field col s12">
+                            <select class="surveyElem" id="q10">
+                                <option value="" disabled selected>Select your answer</option>
+                                <option value="1">1 - Strongly Disagree</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5 - Strongly Agree</option>
+                            </select>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <button class="btn waves-effect waves-light" id="finish" type="submit" name="action">SUBMIT ANSWERS
+            </button>
+        </div>
+        <br>
+        <br>
+        <a href="/api/friends">API Friends List</a> |
+        <a href="https://github.com/celiho/Friend-Finder">GitHub Repo</a> |
+        <a href="/">Home</a>
+        <br>
+        <br>
+    </div>
+
+    <!--modal that pops up when the survey is completed -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4 id="friendName">YOUR BEST MATCHED</h4>
+            <img id="friendImg" src="" alt="">
+        </div>
+        <div class="modal-footer">
+            <a href="/" class="modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+    </div>
+</body>
+
+
+<!--jQuery CDN link-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<!--Materialize CDN link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        //init for Materialize functionality
+        $('select').formSelect();
+        $('.modal').modal();
+        //runs when finish button is clicked
+        $('#finish').on("click", function (event) {
+            event.preventDefault();
+            //checks to make sure all input fields and choices are completed
+            function completedForm() {
+                let filledOut = true;
+                $(".surveyElem").each(function () {
+                    if ($(this).val() === "") {
+                        filledOut = false;
+                    }
+                });
+                return filledOut;
+            }
+            //only runs if form is complete
+            if (completedForm()) {
+                //pulls name and url inputs
+                let name = $('#userName').val();
+                let imageURL = $('#imageURL').val();
+                let scores = [];
+                //pulls answers for questions
+                for (let i = 1; i < 11; i++) {
+                    let choice = $(`#q${i}`).val();
+                    scores.push(choice);
+                }
+                //object to be pushed to api json object
+                let newUser = {
+                    name: name,
+                    image: imageURL,
+                    scores: scores
+                }
+                console.log(newUser);
+                //post request
+                function addUser() {
+                    $.post("/api/friends", newUser)
+                        .done(function (data) {
+                            //populates picture and name
+                            $('#friendName').text(`Your chosen friend is ${data.friendName}! Hooray!!`);
+                            $('#friendImg').attr("src", `${data.friendImg}`);
+                            $('#modal1').modal('open');
+                        });
+                };
+                addUser(newUser);
+            } else {
+                alert("Please answer all questions!")
+            };
+        });
+    });
+</script>
+<!-- <script src="js/script.js"></script> -->
+
+
+</html>
