@@ -1,0 +1,19 @@
+{
+  "name": "friend-finder---node-and-express-servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chendaniel05/Friend-Finder---Node-and-Express-servers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chendaniel05/Friend-Finder---Node-and-Express-servers/issues"
+  },
+  "homepage": "https://github.com/chendaniel05/Friend-Finder---Node-and-Express-servers#readme"
+}
